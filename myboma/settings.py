@@ -15,9 +15,9 @@ import os
 # import django_heroku
 import dj_database_url
 from decouple import config,Csv
-import cloudinary
-import cloudinary.uploader
-import cloudinary.api
+# import cloudinary
+# import cloudinary.uploader
+# import cloudinary.api
 
 
 
@@ -55,14 +55,14 @@ INSTALLED_APPS = [
 ]
 
 # adding config
-cloudinary.config( 
-cloud_name = "dgzo0lyrz", 
-api_key = "936979898137767", 
-api_secret = "Cg4MaPzMgXS-WiNoTSjq7BdItbw" 
-#   cloud_name = "YOUR_CLOUD_NAME", 
-#   api_key = "YOUR_API_KEY", 
-#   api_secret = "YOUR_API_SECRET" 
-)
+# cloudinary.config( 
+# cloud_name = "dgzo0lyrz", 
+# api_key = "936979898137767", 
+# api_secret = "Cg4MaPzMgXS-WiNoTSjq7BdItbw" 
+# #   cloud_name = "YOUR_CLOUD_NAME", 
+# #   api_key = "YOUR_API_KEY", 
+# #   api_secret = "YOUR_API_SECRET" 
+# )
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
